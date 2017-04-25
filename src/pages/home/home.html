@@ -1,0 +1,9 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-searchbar (ionInput)="getItems($event)" (search)="searchByKeyword($event)" placeholder="Search"></ion-searchbar>
+</ion-content>
